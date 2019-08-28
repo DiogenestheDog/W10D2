@@ -1,0 +1,119 @@
+#root {
+  text-align: center;
+  /* display: flex; */
+}
+
+.bold{
+  font-weight: bold;
+}
+#tocenter{
+  display: inline-block;
+}
+
+#time {
+  background-color: lightblue;
+  /* display: ; */
+  flex-wrap: wrap;
+  display: flex;
+  /* align-content: center; */
+  max-width: 1000px;
+  /* height: 400px; */
+  /* padding: 100px; */
+}
+
+#clockdisplay {
+  color: darkred;
+  font-size: 50px;
+  padding-left: 200px;
+  font-family: 'Shadows Into Light', cursive;
+
+}
+
+#datedisplay {
+  color: darkred;
+  font-size: 50px;
+  padding-left: 200px;
+  /* padding-right: 300px; */
+  font-family: 'Shadows Into Light', cursive;
+
+}
+
+
+.title {
+  /* padding-left: 300px; */
+  font-size: 50px;
+  font-family: 'Shadows Into Light', cursive;
+
+}
+.date-title {
+  font-size: 50px;
+  font-family: 'Shadows Into Light', cursive;
+  padding-left: 200px;
+
+
+}
+
+
+.tabs {
+  display: flex;
+  /* flex-wrap: wrap; */
+  justify-content: center;
+}
+
+.tabcontent {
+  font-weight: bold;
+  color: darkgoldenrod;
+  height: 400px;
+  width: 400px;
+  margin: 0 20px;
+  font-size: 34px;
+  border-left: 2px solid black;
+  border-bottom: 2px solid black;
+  border-right: 2px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: lightblue;
+  background-image: url(https://hd.unsplash.com/photo-1445112098124-3e76dd67983c);
+  background-size: cover;
+}
+
+.tab-titles{
+  /* padding-left: 30px; */
+  font-size: 25px;
+  width: 200px;
+  height: 30px;
+  margin: 0 20px;
+  display: flex;
+  justify-content: space-between;
+  width: 65px;
+  border-top: 2px solid black;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+  border-bottom: 2px solid black;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  padding-top: 4px;
+  text-align: center;
+  cursor: pointer;
+  background-color: lightpink;
+}
+
+.weather{
+  font-size: 28px;
+  width: 550px;
+  height: 94px;
+  border: 2px solid black;
+  margin: 0 20px 20px 20px;
+  padding: 10px;
+  text-align: center;
+  color: white;
+  background-color: blueviolet;
+  background-image: url(https://hd.unsplash.com/photo-1429479196389-7d1afeaa2d21);
+  background-size: cover;
+  background-position-y: 20%;
+}
+
+.weather p{
+  margin: 8px;
+}
